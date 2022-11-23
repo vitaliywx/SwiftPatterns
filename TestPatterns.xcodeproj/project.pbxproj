@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3BE8A6E292E5BDE002A5785 /* MVP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE8A6D292E5BDE002A5785 /* MVP.storyboard */; };
+		D3BE8A71292E9AE7002A5785 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A70292E9AE7002A5785 /* MVVMViewController.swift */; };
+		D3BE8A73292E9B19002A5785 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A72292E9B19002A5785 /* MVVMViewModel.swift */; };
 		D3C271E7292E3F8800A148F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271E6292E3F8800A148F5 /* AppDelegate.swift */; };
 		D3C271E9292E3F8800A148F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271E8292E3F8800A148F5 /* SceneDelegate.swift */; };
-		D3C271EB292E3F8800A148F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271EA292E3F8800A148F5 /* ViewController.swift */; };
+		D3C271EB292E3F8800A148F5 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271EA292E3F8800A148F5 /* MVCViewController.swift */; };
 		D3C271EE292E3F8800A148F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C271EC292E3F8800A148F5 /* Main.storyboard */; };
 		D3C271F0292E3F8B00A148F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C271EF292E3F8B00A148F5 /* Assets.xcassets */; };
 		D3C271F3292E3F8B00A148F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C271F1292E3F8B00A148F5 /* LaunchScreen.storyboard */; };
+		D3C271FD292E40B900A148F5 /* MVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271FC292E40B900A148F5 /* MVCView.swift */; };
+		D3C271FF292E40DA00A148F5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271FE292E40DA00A148F5 /* Car.swift */; };
+		D3D94B00292E5994002C3EDF /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D94AFF292E5994002C3EDF /* MVPViewController.swift */; };
+		D3D94B05292E5A3C002C3EDF /* MVPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D94B04292E5A3C002C3EDF /* MVPPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3BE8A6D292E5BDE002A5785 /* MVP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVP.storyboard; sourceTree = "<group>"; };
+		D3BE8A70292E9AE7002A5785 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		D3BE8A72292E9B19002A5785 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
 		D3C271E3292E3F8800A148F5 /* TestPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C271E6292E3F8800A148F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C271E8292E3F8800A148F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3C271EA292E3F8800A148F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3C271EA292E3F8800A148F5 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
 		D3C271ED292E3F8800A148F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3C271EF292E3F8B00A148F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C271F2292E3F8B00A148F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3C271F4292E3F8B00A148F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C271FC292E40B900A148F5 /* MVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCView.swift; sourceTree = "<group>"; };
+		D3C271FE292E40DA00A148F5 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		D3D94AFF292E5994002C3EDF /* MVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
+		D3D94B04292E5A3C002C3EDF /* MVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3BE8A6F292E9AAA002A5785 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D3BE8A70292E9AE7002A5785 /* MVVMViewController.swift */,
+				D3BE8A72292E9B19002A5785 /* MVVMViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		D3C271DA292E3F8800A148F5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +79,61 @@
 		D3C271E5292E3F8800A148F5 /* TestPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				D3C27200292E58B200A148F5 /* MVC */,
+				D3D94B06292E5A62002C3EDF /* MVP */,
+				D3BE8A6F292E9AAA002A5785 /* MVVM */,
+				D3D94B01292E59BE002C3EDF /* Models */,
+				D3C271FB292E403F00A148F5 /* Resources */,
+				D3C271FA292E402E00A148F5 /* Application */,
+			);
+			path = TestPatterns;
+			sourceTree = "<group>";
+		};
+		D3C271FA292E402E00A148F5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				D3C271E6292E3F8800A148F5 /* AppDelegate.swift */,
 				D3C271E8292E3F8800A148F5 /* SceneDelegate.swift */,
-				D3C271EA292E3F8800A148F5 /* ViewController.swift */,
-				D3C271EC292E3F8800A148F5 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D3C271FB292E403F00A148F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				D3C271EF292E3F8B00A148F5 /* Assets.xcassets */,
 				D3C271F1292E3F8B00A148F5 /* LaunchScreen.storyboard */,
 				D3C271F4292E3F8B00A148F5 /* Info.plist */,
 			);
-			path = TestPatterns;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3C27200292E58B200A148F5 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				D3C271EC292E3F8800A148F5 /* Main.storyboard */,
+				D3C271EA292E3F8800A148F5 /* MVCViewController.swift */,
+				D3C271FC292E40B900A148F5 /* MVCView.swift */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		D3D94B01292E59BE002C3EDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3C271FE292E40DA00A148F5 /* Car.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3D94B06292E5A62002C3EDF /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				D3BE8A6D292E5BDE002A5785 /* MVP.storyboard */,
+				D3D94AFF292E5994002C3EDF /* MVPViewController.swift */,
+				D3D94B04292E5A3C002C3EDF /* MVPPresenter.swift */,
+			);
+			path = MVP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BE8A6E292E5BDE002A5785 /* MVP.storyboard in Resources */,
 				D3C271F3292E3F8B00A148F5 /* LaunchScreen.storyboard in Resources */,
 				D3C271F0292E3F8B00A148F5 /* Assets.xcassets in Resources */,
 				D3C271EE292E3F8800A148F5 /* Main.storyboard in Resources */,
@@ -138,8 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C271EB292E3F8800A148F5 /* ViewController.swift in Sources */,
+				D3BE8A71292E9AE7002A5785 /* MVVMViewController.swift in Sources */,
+				D3BE8A73292E9B19002A5785 /* MVVMViewModel.swift in Sources */,
+				D3C271EB292E3F8800A148F5 /* MVCViewController.swift in Sources */,
+				D3C271FF292E40DA00A148F5 /* Car.swift in Sources */,
+				D3D94B00292E5994002C3EDF /* MVPViewController.swift in Sources */,
+				D3C271FD292E40B900A148F5 /* MVCView.swift in Sources */,
 				D3C271E7292E3F8800A148F5 /* AppDelegate.swift in Sources */,
+				D3D94B05292E5A3C002C3EDF /* MVPPresenter.swift in Sources */,
 				D3C271E9292E3F8800A148F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +365,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G4CFK969KL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestPatterns/Info.plist;
+				INFOPLIST_FILE = TestPatterns/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G4CFK969KL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestPatterns/Info.plist;
+				INFOPLIST_FILE = TestPatterns/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
