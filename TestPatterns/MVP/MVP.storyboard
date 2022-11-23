@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -35,17 +36,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0C-qz-wfA">
+                                <rect key="frame" x="8" y="820" width="398" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="MVVM" imagePadding="5">
+                                    <imageReference key="image" image="chevron.forward" catalog="system" symbolScale="medium"/>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleFootnote"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="showMVP:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="aTv-vl-FCb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="x0C-qz-wfA" firstAttribute="top" secondItem="nhM-Nb-TJw" secondAttribute="bottom" constant="8" id="7RG-pv-3V0"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="nhM-Nb-TJw" secondAttribute="bottom" constant="50" id="8ns-Ou-z3M"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="x0C-qz-wfA" secondAttribute="trailing" constant="8" id="HMY-hS-3Ao"/>
                             <constraint firstItem="RNX-Pi-UwQ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="KTq-zF-IsB"/>
                             <constraint firstItem="nhM-Nb-TJw" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="LMn-6M-nBC"/>
+                            <constraint firstItem="x0C-qz-wfA" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="8" id="bKx-Ac-1hv"/>
                             <constraint firstItem="eeB-QM-qVJ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="dMT-tA-klR"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eeB-QM-qVJ" secondAttribute="trailing" constant="20" id="kOu-Wy-QWc"/>
                             <constraint firstItem="eeB-QM-qVJ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="mpm-WK-siS"/>
                             <constraint firstItem="RNX-Pi-UwQ" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="n2r-Cy-gKz"/>
+                            <constraint firstItem="x0C-qz-wfA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="q75-1x-wjv"/>
                         </constraints>
                     </view>
                     <connections>
@@ -59,4 +75,7 @@
             <point key="canvasLocation" x="73" y="-34"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chevron.forward" catalog="system" width="97" height="128"/>
+    </resources>
 </document>

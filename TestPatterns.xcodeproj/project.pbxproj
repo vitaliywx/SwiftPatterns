@@ -10,6 +10,8 @@
 		D3BE8A6E292E5BDE002A5785 /* MVP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE8A6D292E5BDE002A5785 /* MVP.storyboard */; };
 		D3BE8A71292E9AE7002A5785 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A70292E9AE7002A5785 /* MVVMViewController.swift */; };
 		D3BE8A73292E9B19002A5785 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A72292E9B19002A5785 /* MVVMViewModel.swift */; };
+		D3BE8A76292E9B8F002A5785 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A75292E9B8F002A5785 /* Dynamic.swift */; };
+		D3BE8A78292E9C10002A5785 /* MVVM.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE8A77292E9C10002A5785 /* MVVM.storyboard */; };
 		D3C271E7292E3F8800A148F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271E6292E3F8800A148F5 /* AppDelegate.swift */; };
 		D3C271E9292E3F8800A148F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271E8292E3F8800A148F5 /* SceneDelegate.swift */; };
 		D3C271EB292E3F8800A148F5 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271EA292E3F8800A148F5 /* MVCViewController.swift */; };
@@ -26,6 +28,8 @@
 		D3BE8A6D292E5BDE002A5785 /* MVP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVP.storyboard; sourceTree = "<group>"; };
 		D3BE8A70292E9AE7002A5785 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
 		D3BE8A72292E9B19002A5785 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
+		D3BE8A75292E9B8F002A5785 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		D3BE8A77292E9C10002A5785 /* MVVM.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVVM.storyboard; sourceTree = "<group>"; };
 		D3C271E3292E3F8800A148F5 /* TestPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C271E6292E3F8800A148F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C271E8292E3F8800A148F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,10 +58,20 @@
 		D3BE8A6F292E9AAA002A5785 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				D3BE8A74292E9B7F002A5785 /* Bindings */,
+				D3BE8A77292E9C10002A5785 /* MVVM.storyboard */,
 				D3BE8A70292E9AE7002A5785 /* MVVMViewController.swift */,
 				D3BE8A72292E9B19002A5785 /* MVVMViewModel.swift */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		D3BE8A74292E9B7F002A5785 /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				D3BE8A75292E9B8F002A5785 /* Dynamic.swift */,
+			);
+			path = Bindings;
 			sourceTree = "<group>";
 		};
 		D3C271DA292E3F8800A148F5 = {
@@ -194,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BE8A78292E9C10002A5785 /* MVVM.storyboard in Resources */,
 				D3BE8A6E292E5BDE002A5785 /* MVP.storyboard in Resources */,
 				D3C271F3292E3F8B00A148F5 /* LaunchScreen.storyboard in Resources */,
 				D3C271F0292E3F8B00A148F5 /* Assets.xcassets in Resources */,
@@ -209,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BE8A71292E9AE7002A5785 /* MVVMViewController.swift in Sources */,
+				D3BE8A76292E9B8F002A5785 /* Dynamic.swift in Sources */,
 				D3BE8A73292E9B19002A5785 /* MVVMViewModel.swift in Sources */,
 				D3C271EB292E3F8800A148F5 /* MVCViewController.swift in Sources */,
 				D3C271FF292E40DA00A148F5 /* Car.swift in Sources */,

@@ -30,6 +30,13 @@ class MVPViewController: UIViewController {
         displayData()
     }
     
+    @IBAction func showMVP(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "MVVM", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MVVMViewController")
+        vc.title = "MVVM"
+        show(vc, sender: self)
+    }
+    
     func setupView() {
         myButton.setTitle("Change", for: .highlighted)
     }

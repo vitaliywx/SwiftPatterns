@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="MVVMViewController" id="Y6W-OH-hqX" customClass="MVVMViewController" customModule="TestPatterns" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V6n-Yb-IDU">
+                                <rect key="frame" x="20" y="68" width="374" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="750" constant="248" id="Gdf-64-KGb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyt-q1-wNY">
+                                <rect key="frame" x="174" y="777.5" width="66" height="34.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Show"/>
+                                <connections>
+                                    <action selector="showButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="LSB-0G-SB6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fc3-cG-1ST">
+                                <rect key="frame" x="200" y="437.5" width="14" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCh-Db-6C6">
+                                <rect key="frame" x="8" y="820" width="398" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="VIPER" imagePadding="5">
+                                    <imageReference key="image" image="chevron.forward" catalog="system" symbolScale="medium"/>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleFootnote"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="showMVP:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="cr1-LP-D7v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jCh-Db-6C6" firstAttribute="top" secondItem="xyt-q1-wNY" secondAttribute="bottom" constant="8" id="8Q8-uP-oiB"/>
+                            <constraint firstItem="fc3-cG-1ST" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="9A4-1u-QxR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="V6n-Yb-IDU" secondAttribute="trailing" constant="20" id="JKn-dd-01C"/>
+                            <constraint firstItem="xyt-q1-wNY" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Qlr-zy-ddt"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jCh-Db-6C6" secondAttribute="trailing" constant="8" id="Wbh-cZ-6QH"/>
+                            <constraint firstItem="jCh-Db-6C6" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="aAZ-8c-1Um"/>
+                            <constraint firstItem="V6n-Yb-IDU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="bpw-gS-Vhb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="xyt-q1-wNY" secondAttribute="bottom" constant="50" id="eey-oR-ayZ"/>
+                            <constraint firstItem="fc3-cG-1ST" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="kmK-YD-Zwv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="jCh-Db-6C6" secondAttribute="bottom" constant="8" id="tVD-wL-DGp"/>
+                            <constraint firstItem="V6n-Yb-IDU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="wRc-kH-PTB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myButton" destination="xyt-q1-wNY" id="Qjt-D1-i48"/>
+                        <outlet property="myImageView" destination="V6n-Yb-IDU" id="EBY-yE-Rnb"/>
+                        <outlet property="myLabel" destination="fc3-cG-1ST" id="kqM-3b-Cvb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chevron.forward" catalog="system" width="97" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

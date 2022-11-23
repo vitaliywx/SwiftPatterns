@@ -46,10 +46,11 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqs-8D-LwP">
-                                        <rect key="frame" x="353.5" y="772" width="52.5" height="34"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqs-8D-LwP">
+                                        <rect key="frame" x="8" y="772" width="398" height="34"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="MVP">
+                                        <buttonConfiguration key="configuration" style="plain" image="chevron.right" catalog="system" imagePlacement="trailing" title="MVP" imagePadding="5">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="medium"/>
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleFootnote"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -69,6 +70,7 @@
                                     <constraint firstAttribute="trailing" secondItem="vDb-gq-U9d" secondAttribute="trailing" constant="20" id="e4E-ZB-h6A"/>
                                     <constraint firstAttribute="bottom" secondItem="sqs-8D-LwP" secondAttribute="bottom" constant="8" id="ibn-3l-fsC"/>
                                     <constraint firstItem="vDb-gq-U9d" firstAttribute="top" secondItem="68v-hR-VEL" secondAttribute="top" constant="20" id="map-qf-ZaE"/>
+                                    <constraint firstItem="sqs-8D-LwP" firstAttribute="leading" secondItem="68v-hR-VEL" secondAttribute="leading" constant="8" id="rLI-ST-Y7c"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -95,6 +97,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
