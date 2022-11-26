@@ -80,7 +80,7 @@
                             <constraint firstItem="68v-hR-VEL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="21R-Bo-mQP"/>
                             <constraint firstItem="68v-hR-VEL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6kX-Nh-sOS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="68v-hR-VEL" secondAttribute="trailing" id="kJx-2K-cDt"/>
-                            <constraint firstItem="68v-hR-VEL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="nCb-eE-F0Z"/>
+                            <constraint firstItem="68v-hR-VEL" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-34" id="nCb-eE-F0Z"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KtG-gO-Xau"/>

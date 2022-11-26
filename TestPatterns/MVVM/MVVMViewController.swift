@@ -27,14 +27,13 @@ class MVVMViewController: UIViewController {
     }
     
     @IBAction func showMVP(_ sender: Any) {
-//        let storyboard = UIStoryboard(name: "VIPER", bundle: nil)
-//        let vc = storyboard.instantiateViewController(withIdentifier: "VIPERViewController")
-//        vc.title = "VIPER"
-//        show(vc, sender: self)
+        let vc = VIPERModuleBuilder.build()
+        show(vc, sender: self)
     }
 
     private func setupView() {
         myButton.setTitle("Change", for: .highlighted)
+        self.title = "MVVM"
     }
     
     func bindViewModel() {

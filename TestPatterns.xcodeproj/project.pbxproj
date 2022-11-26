@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D39CB53C29327F3B006B927F /* CleanSwiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CB53B29327F3B006B927F /* CleanSwiftModel.swift */; };
 		D3BE8A6E292E5BDE002A5785 /* MVP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE8A6D292E5BDE002A5785 /* MVP.storyboard */; };
 		D3BE8A71292E9AE7002A5785 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A70292E9AE7002A5785 /* MVVMViewController.swift */; };
 		D3BE8A73292E9B19002A5785 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A72292E9B19002A5785 /* MVVMViewModel.swift */; };
 		D3BE8A76292E9B8F002A5785 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A75292E9B8F002A5785 /* Dynamic.swift */; };
 		D3BE8A78292E9C10002A5785 /* MVVM.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE8A77292E9C10002A5785 /* MVVM.storyboard */; };
+		D3BE8A7F292EA811002A5785 /* VIPERModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A7A292EA811002A5785 /* VIPERModuleBuilder.swift */; };
+		D3BE8A80292EA811002A5785 /* VIPERPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A7B292EA811002A5785 /* VIPERPresenter.swift */; };
+		D3BE8A81292EA811002A5785 /* VIPERRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A7C292EA811002A5785 /* VIPERRouter.swift */; };
+		D3BE8A82292EA811002A5785 /* VIPERViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A7D292EA811002A5785 /* VIPERViewController.swift */; };
+		D3BE8A83292EA811002A5785 /* VIPERInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A7E292EA811002A5785 /* VIPERInteractor.swift */; };
+		D3BE8A85292EA82E002A5785 /* VIPER.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE8A84292EA82E002A5785 /* VIPER.storyboard */; };
+		D3BE8A8A292EC192002A5785 /* CleanSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8A89292EC192002A5785 /* CleanSwiftViewController.swift */; };
+		D3BE8A8C292EC21D002A5785 /* CleanSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE8A8B292EC21D002A5785 /* CleanSwift.storyboard */; };
 		D3C271E7292E3F8800A148F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271E6292E3F8800A148F5 /* AppDelegate.swift */; };
 		D3C271E9292E3F8800A148F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271E8292E3F8800A148F5 /* SceneDelegate.swift */; };
 		D3C271EB292E3F8800A148F5 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271EA292E3F8800A148F5 /* MVCViewController.swift */; };
@@ -22,14 +31,26 @@
 		D3C271FF292E40DA00A148F5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C271FE292E40DA00A148F5 /* Car.swift */; };
 		D3D94B00292E5994002C3EDF /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D94AFF292E5994002C3EDF /* MVPViewController.swift */; };
 		D3D94B05292E5A3C002C3EDF /* MVPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D94B04292E5A3C002C3EDF /* MVPPresenter.swift */; };
+		D3EAB87E292EC2BF00219679 /* CleanSwiftPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAB87D292EC2BF00219679 /* CleanSwiftPresenter.swift */; };
+		D3EAB880292EC2D300219679 /* CleanSwiftInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAB87F292EC2D300219679 /* CleanSwiftInteractor.swift */; };
+		D3EAB882292EC2E100219679 /* CleanSwiftRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAB881292EC2E100219679 /* CleanSwiftRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D39CB53B29327F3B006B927F /* CleanSwiftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftModel.swift; sourceTree = "<group>"; };
 		D3BE8A6D292E5BDE002A5785 /* MVP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVP.storyboard; sourceTree = "<group>"; };
 		D3BE8A70292E9AE7002A5785 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
 		D3BE8A72292E9B19002A5785 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
 		D3BE8A75292E9B8F002A5785 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		D3BE8A77292E9C10002A5785 /* MVVM.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVVM.storyboard; sourceTree = "<group>"; };
+		D3BE8A7A292EA811002A5785 /* VIPERModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERModuleBuilder.swift; sourceTree = "<group>"; };
+		D3BE8A7B292EA811002A5785 /* VIPERPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERPresenter.swift; sourceTree = "<group>"; };
+		D3BE8A7C292EA811002A5785 /* VIPERRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERRouter.swift; sourceTree = "<group>"; };
+		D3BE8A7D292EA811002A5785 /* VIPERViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERViewController.swift; sourceTree = "<group>"; };
+		D3BE8A7E292EA811002A5785 /* VIPERInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERInteractor.swift; sourceTree = "<group>"; };
+		D3BE8A84292EA82E002A5785 /* VIPER.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VIPER.storyboard; sourceTree = "<group>"; };
+		D3BE8A89292EC192002A5785 /* CleanSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftViewController.swift; sourceTree = "<group>"; };
+		D3BE8A8B292EC21D002A5785 /* CleanSwift.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CleanSwift.storyboard; sourceTree = "<group>"; };
 		D3C271E3292E3F8800A148F5 /* TestPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C271E6292E3F8800A148F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C271E8292E3F8800A148F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +63,9 @@
 		D3C271FE292E40DA00A148F5 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		D3D94AFF292E5994002C3EDF /* MVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
 		D3D94B04292E5A3C002C3EDF /* MVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPresenter.swift; sourceTree = "<group>"; };
+		D3EAB87D292EC2BF00219679 /* CleanSwiftPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftPresenter.swift; sourceTree = "<group>"; };
+		D3EAB87F292EC2D300219679 /* CleanSwiftInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftInteractor.swift; sourceTree = "<group>"; };
+		D3EAB881292EC2E100219679 /* CleanSwiftRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,32 @@
 			path = Bindings;
 			sourceTree = "<group>";
 		};
+		D3BE8A79292EA7C8002A5785 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				D3BE8A84292EA82E002A5785 /* VIPER.storyboard */,
+				D3BE8A7D292EA811002A5785 /* VIPERViewController.swift */,
+				D3BE8A7B292EA811002A5785 /* VIPERPresenter.swift */,
+				D3BE8A7E292EA811002A5785 /* VIPERInteractor.swift */,
+				D3BE8A7A292EA811002A5785 /* VIPERModuleBuilder.swift */,
+				D3BE8A7C292EA811002A5785 /* VIPERRouter.swift */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		D3BE8A88292EC119002A5785 /* CleanSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D3BE8A8B292EC21D002A5785 /* CleanSwift.storyboard */,
+				D3BE8A89292EC192002A5785 /* CleanSwiftViewController.swift */,
+				D3EAB87F292EC2D300219679 /* CleanSwiftInteractor.swift */,
+				D3EAB87D292EC2BF00219679 /* CleanSwiftPresenter.swift */,
+				D3EAB881292EC2E100219679 /* CleanSwiftRouter.swift */,
+				D39CB53B29327F3B006B927F /* CleanSwiftModel.swift */,
+			);
+			path = CleanSwift;
+			sourceTree = "<group>";
+		};
 		D3C271DA292E3F8800A148F5 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +146,8 @@
 				D3C27200292E58B200A148F5 /* MVC */,
 				D3D94B06292E5A62002C3EDF /* MVP */,
 				D3BE8A6F292E9AAA002A5785 /* MVVM */,
+				D3BE8A79292EA7C8002A5785 /* VIPER */,
+				D3BE8A88292EC119002A5785 /* CleanSwift */,
 				D3D94B01292E59BE002C3EDF /* Models */,
 				D3C271FB292E403F00A148F5 /* Resources */,
 				D3C271FA292E402E00A148F5 /* Application */,
@@ -209,10 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BE8A78292E9C10002A5785 /* MVVM.storyboard in Resources */,
+				D3BE8A8C292EC21D002A5785 /* CleanSwift.storyboard in Resources */,
 				D3BE8A6E292E5BDE002A5785 /* MVP.storyboard in Resources */,
 				D3C271F3292E3F8B00A148F5 /* LaunchScreen.storyboard in Resources */,
 				D3C271F0292E3F8B00A148F5 /* Assets.xcassets in Resources */,
 				D3C271EE292E3F8800A148F5 /* Main.storyboard in Resources */,
+				D3BE8A85292EA82E002A5785 /* VIPER.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,16 +277,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BE8A81292EA811002A5785 /* VIPERRouter.swift in Sources */,
+				D3EAB882292EC2E100219679 /* CleanSwiftRouter.swift in Sources */,
+				D3BE8A82292EA811002A5785 /* VIPERViewController.swift in Sources */,
 				D3BE8A71292E9AE7002A5785 /* MVVMViewController.swift in Sources */,
+				D3BE8A80292EA811002A5785 /* VIPERPresenter.swift in Sources */,
+				D3EAB87E292EC2BF00219679 /* CleanSwiftPresenter.swift in Sources */,
 				D3BE8A76292E9B8F002A5785 /* Dynamic.swift in Sources */,
 				D3BE8A73292E9B19002A5785 /* MVVMViewModel.swift in Sources */,
 				D3C271EB292E3F8800A148F5 /* MVCViewController.swift in Sources */,
+				D39CB53C29327F3B006B927F /* CleanSwiftModel.swift in Sources */,
 				D3C271FF292E40DA00A148F5 /* Car.swift in Sources */,
+				D3BE8A8A292EC192002A5785 /* CleanSwiftViewController.swift in Sources */,
 				D3D94B00292E5994002C3EDF /* MVPViewController.swift in Sources */,
 				D3C271FD292E40B900A148F5 /* MVCView.swift in Sources */,
+				D3EAB880292EC2D300219679 /* CleanSwiftInteractor.swift in Sources */,
+				D3BE8A7F292EA811002A5785 /* VIPERModuleBuilder.swift in Sources */,
 				D3C271E7292E3F8800A148F5 /* AppDelegate.swift in Sources */,
 				D3D94B05292E5A3C002C3EDF /* MVPPresenter.swift in Sources */,
 				D3C271E9292E3F8800A148F5 /* SceneDelegate.swift in Sources */,
+				D3BE8A83292EA811002A5785 /* VIPERInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

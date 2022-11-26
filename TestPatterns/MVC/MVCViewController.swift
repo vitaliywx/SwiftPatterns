@@ -25,13 +25,13 @@ class MVCViewController: UIViewController {
     @IBAction func showMVP(_ sender: Any) {
         let storyboard = UIStoryboard(name: "MVP", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "MVPViewController")
-        vc.title = "MVP"
         show(vc, sender: self)
     }
     
     
     func setupView() {
         myButton.setTitle("Change", for: .highlighted)
+        self.title = "MVC"
     }
     
     func showImage() {
