@@ -1,5 +1,5 @@
 //
-//  CleanSwiftPresenter.swift
+//  MVPPresentes.swift
 //  TestPatterns
 //
 //  Created by Vitalii Homoniuk on 23.11.2022.
@@ -7,18 +7,20 @@
 
 import UIKit
 
-protocol CleanSwiftPresenterLogic {
-    func present(data: [Car])
+
+protocol MVPPresenterProtocol: AnyObject {
+    func didLoad()
 }
 
 
-class CleanSwiftPresenter {
-    weak var viewController: CleanSwiftViewLogic?
+class MVPPresenter {
+    weak var viewController: MVPViewProtocol?
 }
 
 
-extension CleanSwiftPresenter: CleanSwiftPresenterLogic {
-    func present(data: [Car]) {
+extension MVPPresenter: MVPPresenterProtocol {
+    func didLoad() {
+        let data = Car.cars
         let randomInt = Int.random(in: 0...data.count - 1)
         let item = data[randomInt]
         

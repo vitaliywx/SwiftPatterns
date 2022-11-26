@@ -11,6 +11,7 @@ protocol CleanSwiftInteractorLogic {
     func fetchData()
 }
 
+
 protocol CleanSwiftStoreProtocol: AnyObject {
     
 }

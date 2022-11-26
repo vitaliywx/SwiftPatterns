@@ -15,30 +15,29 @@ class MVCViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupView()
+        setup()
     }
     
     @IBAction func showButton(_ sender: Any) {
-        showImage()
+        showData()
     }
     
-    @IBAction func showMVP(_ sender: Any) {
+    @IBAction func showNextVC(_ sender: Any) {
         let storyboard = UIStoryboard(name: "MVP", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "MVPViewController")
         show(vc, sender: self)
     }
     
-    
-    func setupView() {
-        myButton.setTitle("Change", for: .highlighted)
+    func setup() {
         self.title = "MVC"
     }
     
-    func showImage() {
+    func showData() {
         let randomInt = Int.random(in: 0...Car.cars.count - 1)
         let data = Car.cars[randomInt]
         myLabel.text = data.model.uppercased()
         myImageView.image = UIImage(named: data.color)
+        myButton.setTitle(data.buttonTitle, for: .normal)
     }
 }
 

@@ -24,15 +24,16 @@ class MVVMViewController: UIViewController {
     
     @IBAction func showButton(_ sender: Any) {
         viewModel.buttonPressed()
+        self.myButton.setTitle(viewModel.buttonTitle, for: .normal)
     }
     
-    @IBAction func showMVP(_ sender: Any) {
+    @IBAction func showNextVC(_ sender: Any) {
         let vc = VIPERModuleBuilder.build()
         show(vc, sender: self)
     }
 
     private func setupView() {
-        myButton.setTitle("Change", for: .highlighted)
+        // view settings (form, color, layout etc.)
         self.title = "MVVM"
     }
     
@@ -48,5 +49,4 @@ class MVVMViewController: UIViewController {
             }
         }
     }
-    
 }

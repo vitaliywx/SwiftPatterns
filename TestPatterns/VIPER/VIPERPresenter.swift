@@ -4,12 +4,11 @@
 //
 //  Created by Vitalii Homoniuk on 23.11.2022
 //
+
 import UIKit
 
-
 protocol VIPERPresenterProtocol: AnyObject {
-    func didLoad(image: UIImage)
-    func didLoad(text: String)
+    func didLoad(image: UIImage, text: String, buttonTitle: String)
     func didTapButton()
     func didTapNextButton()
 }
@@ -29,12 +28,8 @@ class VIPERPresenter {
 
 extension VIPERPresenter: VIPERPresenterProtocol {
     
-    func didLoad(image: UIImage) {
-        view?.showImage(image: image)
-    }
-    
-    func didLoad(text: String) {
-        view?.showText(text: text)
+    func didLoad(image: UIImage, text: String, buttonTitle: String) {
+        view?.showData(image: image, text: text, buttonTitle: buttonTitle)
     }
     
     func didTapButton() {
@@ -42,6 +37,6 @@ extension VIPERPresenter: VIPERPresenterProtocol {
     }
     
     func didTapNextButton() {
-        router.openVC()
+        router.showVC()
     }
 }

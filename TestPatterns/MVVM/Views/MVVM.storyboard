@@ -45,7 +45,7 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleFootnote"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="showMVP:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="cr1-LP-D7v"/>
+                                    <action selector="showNextVC:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="6dq-Up-AOI"/>
                                 </connections>
                             </button>
                         </subviews>

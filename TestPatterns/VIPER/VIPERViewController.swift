@@ -8,8 +8,7 @@
 import UIKit
 
 protocol VIPERViewProtocol: AnyObject {
-    func showImage(image: UIImage)
-    func showText(text: String)
+    func showData(image: UIImage, text: String, buttonTitle: String)
 }
 
 
@@ -30,29 +29,20 @@ class VIPERViewController: UIViewController {
         presenter?.didTapButton()
     }
     
-    @IBAction func showVC(_ sender: Any) {
+    @IBAction func showNextVC(_ sender: Any) {
         presenter?.didTapNextButton()
     }
-}
-
-
-private extension VIPERViewController {
-    func setupView() {
-        
+    
+    private func setupView() {
+        // view settings (form, color, layout etc.)
     }
 }
 
 
 extension VIPERViewController: VIPERViewProtocol {
-    func showImage(image: UIImage) {
-        DispatchQueue.main.async {
-            self.myImageView.image = image
-        }
+    func showData(image: UIImage, text: String, buttonTitle: String) {
+        self.myImageView.image = image
+        self.myLabel.text = text
+        self.myButton.setTitle(buttonTitle, for: .normal)
     }
-    func showText(text: String) {
-        DispatchQueue.main.async {
-            self.myLabel.text = text
-        }
-    }
-    
 }

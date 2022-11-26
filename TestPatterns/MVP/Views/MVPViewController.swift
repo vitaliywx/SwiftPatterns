@@ -1,5 +1,5 @@
 //
-//  CleanSwiftViewController.swift
+//  MVPViewController.swift
 //  TestPatterns
 //
 //  Created by Vitalii Homoniuk on 23.11.2022.
@@ -7,19 +7,18 @@
 
 import UIKit
 
-protocol CleanSwiftViewLogic: AnyObject  {
+protocol MVPViewProtocol: AnyObject {
     func showData(image: UIImage, text: String, buttonTitle: String)
 }
 
 
-class CleanSwiftViewController: UIViewController {
+class MVPViewController: UIViewController {
     
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var myButton: UIButton!
     @IBOutlet weak var myImageView: UIImageView!
     
-    private(set) var router: CleanSwiftRouterLogic?
-    private var interactor: CleanSwiftInteractorLogic?
+    var presenter: MVPPresenterProtocol?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,36 +27,33 @@ class CleanSwiftViewController: UIViewController {
     }
     
     @IBAction func showButton(_ sender: Any) {
-        interactor?.fetchData()
+        presenter?.didLoad()
     }
     
     @IBAction func showNextVC(_ sender: Any) {
-        router?.showVC()
+        let storyboard = UIStoryboard(name: "MVVM", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MVVMViewController")
+        show(vc, sender: self)
     }
     
-    private func setup() {
+    func setup() {
         let viewController = self
-        let presenter = CleanSwiftPresenter()
-        let interactor = CleanSwiftInteractor()
-        let router = CleanSwiftRouter()
-        interactor.presenter = presenter
+        let presenter = MVPPresenter()
         presenter.viewController = viewController
-        viewController.interactor = interactor
-        viewController.router = router
-        viewController.title = "Clean Swift"
-        router.viewController = viewController
+        viewController.presenter = presenter
+        viewController.title = "MVP"
     }
     
-    private func setupView() {
+    func setupView() {
         // view settings (form, color, layout etc.)
     }
 }
 
 
-extension CleanSwiftViewController: CleanSwiftViewLogic {
+extension MVPViewController: MVPViewProtocol {
     func showData(image: UIImage, text: String, buttonTitle: String) {
         self.myImageView.image = image
         self.myLabel.text = text
         self.myButton.setTitle(buttonTitle, for: .normal)
-    }
+    }    
 }

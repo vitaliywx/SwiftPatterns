@@ -10,6 +10,7 @@ import Foundation
 struct Car {
     let model: String
     let color: String
+    let buttonTitle: String = "Change"
 }
 
 extension Car {

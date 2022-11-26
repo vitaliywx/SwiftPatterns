@@ -20,6 +20,6 @@ class MVCView: UIView {
     }
     
     func setupView() {
-        
+        // view settings (form, color, layout etc.)
     }
 }

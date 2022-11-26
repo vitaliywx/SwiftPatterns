@@ -8,13 +8,14 @@
 import UIKit
 
 protocol VIPERRouterProtocol {
-    func openVC()
+    func showVC()
 }
+
 
 class VIPERRouter: VIPERRouterProtocol {
     weak var viewController: VIPERViewController?
     
-    func openVC() {
+    func showVC() {
         let storyboard = UIStoryboard(name: "CleanSwift", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "CleanSwiftViewController")
         viewController?.show(vc, sender: self)
