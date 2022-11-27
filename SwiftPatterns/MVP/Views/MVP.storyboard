@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="MVPViewController" id="Y6W-OH-hqX" customClass="MVPViewController" customModule="TestPatterns" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MVPViewController" id="Y6W-OH-hqX" customClass="MVPViewController" customModule="SwiftPatterns" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0C-qz-wfA">
-                                <rect key="frame" x="8" y="820" width="398" height="50"/>
+                                <rect key="frame" x="324.5" y="820" width="81.5" height="50"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="MVVM" imagePadding="5">
                                     <imageReference key="image" image="chevron.forward" catalog="system" symbolScale="medium"/>
@@ -61,7 +61,6 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eeB-QM-qVJ" secondAttribute="trailing" constant="20" id="kOu-Wy-QWc"/>
                             <constraint firstItem="eeB-QM-qVJ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="mpm-WK-siS"/>
                             <constraint firstItem="RNX-Pi-UwQ" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="n2r-Cy-gKz"/>
-                            <constraint firstItem="x0C-qz-wfA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="q75-1x-wjv"/>
                         </constraints>
                     </view>
                     <connections>

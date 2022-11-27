@@ -16,8 +16,10 @@ struct Car {
 extension Car {
     static var cars = [
         Car(model: "mercedes", imageName: "white"),
-        Car(model: "mercedes", imageName: "red"),
+        Car(model: "bmw", imageName: "red"),
         Car(model: "audi", imageName: "blue"),
-        Car(model: "porsche", imageName: "yellow")
+        Car(model: "porsche", imageName: "yellow"),
+        Car(model: "lexus", imageName: "black"),
+        Car(model: "infinity", imageName: "gray")
     ]
 }

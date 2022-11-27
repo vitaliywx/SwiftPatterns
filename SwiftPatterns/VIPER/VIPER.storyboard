@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="VIPERViewController" id="Y6W-OH-hqX" customClass="VIPERViewController" customModule="TestPatterns" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VIPERViewController" id="Y6W-OH-hqX" customClass="VIPERViewController" customModule="SwiftPatterns" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +24,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCz-jZ-wZc">
-                                <rect key="frame" x="174" y="758" width="66" height="34.5"/>
+                                <rect key="frame" x="174" y="777.5" width="66" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Show"/>
                                 <connections>
@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8o-J5-Fb6">
-                                <rect key="frame" x="8" y="800.5" width="398" height="53.5"/>
+                                <rect key="frame" x="295.5" y="820" width="110.5" height="34"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="Clean Swift" imagePadding="5">
                                     <imageReference key="image" image="chevron.forward" catalog="system" symbolScale="medium"/>
@@ -52,7 +52,7 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="hCz-jZ-wZc" secondAttribute="bottom" constant="69.5" id="19I-1s-ljZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="hCz-jZ-wZc" secondAttribute="bottom" constant="50" id="19I-1s-ljZ"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Z8o-J5-Fb6" secondAttribute="trailing" constant="8" id="3hP-eC-4Gi"/>
                             <constraint firstItem="Z8o-J5-Fb6" firstAttribute="top" secondItem="hCz-jZ-wZc" secondAttribute="bottom" constant="8" id="ARe-jX-Nwk"/>
                             <constraint firstItem="hCz-jZ-wZc" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="COR-yw-A8W"/>
@@ -62,7 +62,6 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Z8o-J5-Fb6" secondAttribute="bottom" constant="8" id="VKw-aP-1yC"/>
                             <constraint firstItem="GcJ-Up-EHD" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="hDx-Oj-hOT"/>
                             <constraint firstItem="DOH-ot-W6I" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="nR2-LI-EO2"/>
-                            <constraint firstItem="Z8o-J5-Fb6" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="zoj-gq-Jg0"/>
                         </constraints>
                     </view>
                     <connections>

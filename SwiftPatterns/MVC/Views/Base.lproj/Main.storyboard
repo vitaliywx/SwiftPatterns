@@ -11,12 +11,12 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="MVCViewController" id="BYZ-38-t0r" customClass="MVCViewController" customModule="TestPatterns" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MVCViewController" id="BYZ-38-t0r" customClass="MVCViewController" customModule="SwiftPatterns" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68v-hR-VEL" customClass="MVCView" customModule="TestPatterns" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68v-hR-VEL" customClass="MVCView" customModule="SwiftPatterns" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="48" width="414" height="814"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vDb-gq-U9d">
@@ -47,7 +47,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqs-8D-LwP">
-                                        <rect key="frame" x="8" y="772" width="398" height="34"/>
+                                        <rect key="frame" x="336" y="772" width="70" height="34"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="chevron.right" catalog="system" imagePlacement="trailing" title="MVP" imagePadding="5">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="medium"/>
@@ -70,7 +70,6 @@
                                     <constraint firstAttribute="trailing" secondItem="vDb-gq-U9d" secondAttribute="trailing" constant="20" id="e4E-ZB-h6A"/>
                                     <constraint firstAttribute="bottom" secondItem="sqs-8D-LwP" secondAttribute="bottom" constant="8" id="ibn-3l-fsC"/>
                                     <constraint firstItem="vDb-gq-U9d" firstAttribute="top" secondItem="68v-hR-VEL" secondAttribute="top" constant="20" id="map-qf-ZaE"/>
-                                    <constraint firstItem="sqs-8D-LwP" firstAttribute="leading" secondItem="68v-hR-VEL" secondAttribute="leading" constant="8" id="rLI-ST-Y7c"/>
                                 </constraints>
                             </view>
                         </subviews>

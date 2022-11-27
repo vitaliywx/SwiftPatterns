@@ -49,7 +49,7 @@
 		D3BE8A84292EA82E002A5785 /* VIPER.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VIPER.storyboard; sourceTree = "<group>"; };
 		D3BE8A89292EC192002A5785 /* CleanSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftViewController.swift; sourceTree = "<group>"; };
 		D3BE8A8B292EC21D002A5785 /* CleanSwift.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CleanSwift.storyboard; sourceTree = "<group>"; };
-		D3C271E3292E3F8800A148F5 /* TestPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C271E3292E3F8800A148F5 /* SwiftPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C271E6292E3F8800A148F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C271E8292E3F8800A148F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D3C271EA292E3F8800A148F5 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 		D3C271DA292E3F8800A148F5 = {
 			isa = PBXGroup;
 			children = (
-				D3C271E5292E3F8800A148F5 /* TestPatterns */,
+				D3C271E5292E3F8800A148F5 /* SwiftPatterns */,
 				D3C271E4292E3F8800A148F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -182,12 +182,12 @@
 		D3C271E4292E3F8800A148F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3C271E3292E3F8800A148F5 /* TestPatterns.app */,
+				D3C271E3292E3F8800A148F5 /* SwiftPatterns.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3C271E5292E3F8800A148F5 /* TestPatterns */ = {
+		D3C271E5292E3F8800A148F5 /* SwiftPatterns */ = {
 			isa = PBXGroup;
 			children = (
 				D3C27200292E58B200A148F5 /* MVC */,
@@ -199,7 +199,7 @@
 				D3C271FB292E403F00A148F5 /* Resources */,
 				D3C271FA292E402E00A148F5 /* Application */,
 			);
-			path = TestPatterns;
+			path = SwiftPatterns;
 			sourceTree = "<group>";
 		};
 		D3C271FA292E402E00A148F5 /* Application */ = {
@@ -250,9 +250,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3C271E2292E3F8800A148F5 /* TestPatterns */ = {
+		D3C271E2292E3F8800A148F5 /* SwiftPatterns */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3C271F7292E3F8B00A148F5 /* Build configuration list for PBXNativeTarget "TestPatterns" */;
+			buildConfigurationList = D3C271F7292E3F8B00A148F5 /* Build configuration list for PBXNativeTarget "SwiftPatterns" */;
 			buildPhases = (
 				D3C271DF292E3F8800A148F5 /* Sources */,
 				D3C271E0292E3F8800A148F5 /* Frameworks */,
@@ -262,9 +262,9 @@
 			);
 			dependencies = (
 			);
-			name = TestPatterns;
+			name = SwiftPatterns;
 			productName = TestPatterns;
-			productReference = D3C271E3292E3F8800A148F5 /* TestPatterns.app */;
+			productReference = D3C271E3292E3F8800A148F5 /* SwiftPatterns.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -295,7 +295,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3C271E2292E3F8800A148F5 /* TestPatterns */,
+				D3C271E2292E3F8800A148F5 /* SwiftPatterns */,
 			);
 		};
 /* End PBXProject section */
@@ -489,7 +489,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G4CFK969KL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestPatterns/Resources/Info.plist;
+				INFOPLIST_FILE = SwiftPatterns/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -500,7 +500,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.TestPatterns;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wx.SwiftPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -517,7 +517,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G4CFK969KL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestPatterns/Resources/Info.plist;
+				INFOPLIST_FILE = SwiftPatterns/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -528,7 +528,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.TestPatterns;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wx.SwiftPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3C271F7292E3F8B00A148F5 /* Build configuration list for PBXNativeTarget "TestPatterns" */ = {
+		D3C271F7292E3F8B00A148F5 /* Build configuration list for PBXNativeTarget "SwiftPatterns" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3C271F8292E3F8B00A148F5 /* Debug */,
