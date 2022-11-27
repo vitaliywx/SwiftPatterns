@@ -9,15 +9,15 @@ import Foundation
 
 struct Car {
     let model: String
-    let color: String
+    let imageName: String
     let buttonTitle: String = "Change"
 }
 
 extension Car {
     static var cars = [
-        Car(model: "mercedes", color: "white"),
-        Car(model: "mercedes", color: "red"),
-        Car(model: "audi", color: "blue"),
-        Car(model: "porsche", color: "yellow")
+        Car(model: "mercedes", imageName: "white"),
+        Car(model: "mercedes", imageName: "red"),
+        Car(model: "audi", imageName: "blue"),
+        Car(model: "porsche", imageName: "yellow")
     ]
 }

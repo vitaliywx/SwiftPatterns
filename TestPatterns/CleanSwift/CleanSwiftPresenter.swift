@@ -22,7 +22,7 @@ extension CleanSwiftPresenter: CleanSwiftPresenterLogic {
         let randomInt = Int.random(in: 0...data.count - 1)
         let item = data[randomInt]
         
-        guard let image = UIImage(named: item.color) else { return }
+        guard let image = UIImage(named: item.imageName) else { return }
         let text = item.model.uppercased()
         let buttonTitle = item.buttonTitle
         

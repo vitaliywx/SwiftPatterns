@@ -17,7 +17,7 @@ class MVVMViewModel {
         let randomInt = Int.random(in: 0...data.count - 1)
         let item = data[randomInt]
         labelText.value = item.model.uppercased()
-        image.value = item.color
+        image.value = item.imageName
         buttonTitle = item.buttonTitle
     }
 }

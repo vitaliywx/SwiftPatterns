@@ -36,7 +36,7 @@ class MVCViewController: UIViewController {
         let randomInt = Int.random(in: 0...Car.cars.count - 1)
         let data = Car.cars[randomInt]
         myLabel.text = data.model.uppercased()
-        myImageView.image = UIImage(named: data.color)
+        myImageView.image = UIImage(named: data.imageName)
         myButton.setTitle(data.buttonTitle, for: .normal)
     }
 }

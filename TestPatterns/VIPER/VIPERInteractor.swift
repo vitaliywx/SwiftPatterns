@@ -19,7 +19,7 @@ class VIPERInteractor: VIPERInteractorProtocol {
     func loadData() {
         let randomInt = Int.random(in: 0...Car.cars.count - 1)
         let data = Car.cars[randomInt]
-        guard let image = UIImage(named: data.color) else { return }
+        guard let image = UIImage(named: data.imageName) else { return }
         let text = data.model.uppercased()
         let buttonTitle = data.buttonTitle
         
